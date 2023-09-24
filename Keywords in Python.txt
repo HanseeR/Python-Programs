@@ -1,0 +1,10 @@
+#Keywords in Python
+
+'''false , def,if,raise,none,del,import,return,true,elif,in,try,and,else,is,while,as,except,lambda,with,as,except,with,assert,finally,ninlocal,yield,break,for,not,continue,class,from,or,global,pass'''
+
+import keyword
+
+keyword.kwlist
+
+
+
