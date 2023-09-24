@@ -1,0 +1,37 @@
+#declaration of the variables 
+
+Num1 = 9
+Num2 = 19
+
+#Addition of the integers 
+
+Sum = (Num1 + Num2)
+
+#Prints the sum in the console
+
+print("The sum of two numbers is", Sum)
+
+Multiply = (Num1 * Num2)
+
+print("The multiplication of two numbers is ", Multiply)
+
+Divide = (Num1/Num2)
+
+print("The division of two numbers ", Divide)
+
+Subtract = (Num1-Num2)
+
+print("The subtraction of two numbers is", Subtract)
+
+
+OUTPUT
+
+The sum of two numbers is 28
+The multiplication of two numbers is  171
+The division of two numbers  0.47368421052631576
+The subtraction of two numbers is -10
+
+
+
+
+
