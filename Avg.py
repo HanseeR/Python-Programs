@@ -13,3 +13,4 @@ average= total/3
 print("Total=",total)
 
 print("Average=",average)
+
