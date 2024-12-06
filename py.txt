@@ -1,0 +1,537 @@
+# print("Hello")
+
+# print("Welcome" , "To" , "here")
+
+# print()
+
+# print("Welcome to here")
+
+# print(80)
+
+# print("Hello",90,"+")
+
+# # Varaibles in python 
+
+# age = 101
+
+# name = "name"
+
+# weight = 50
+
+# tax = 18
+
+
+# x =  10 
+# print(x)
+ 
+# x = "geek"
+# print(x)
+
+# # Boolean values in python 
+
+# is_value = True 
+# marks = 30 
+# pi = 3.14 
+# city_name = "Noida"
+# print(is_value)
+# print(marks)
+# print(pi)
+# print(city_name)
+
+# # print(y)
+
+# # x = none used to reset a value in python 
+
+# # input function in python 
+
+# name = input("Enter your name")
+
+# print("welcome  " + name)
+
+# age = input("Enter your age")
+
+# print("Your age is " + age)
+
+# # input program for addition 
+
+# # Number of input numbers 
+
+# x = int(input())
+
+# y = int(input())
+# res = x+y 
+
+# print("Sum is", res)
+
+a = 10 
+
+print(type(a))
+
+b = 10.5
+
+print(type(b))
+
+c = 2+4j
+
+print(type(c))
+
+a = True 
+
+print(type(a))
+
+b = None 
+print(type(a))
+
+**************
+
+# lOGICAL OPERATORS 
+
+a = 10 
+b = 20 
+c = 30 
+print(a<b and b<c) # short circuitig in python 
+print(a<b or b>c)
+print(not a>b)
+
+# Expressions tha are treated as False , none , empty string , list , tuple, dictionary and etc 
+# s1=""
+
+# s1=s1 on "default str"
+
+# print(s1)
+
+x = 10 
+print(x == 20)  # Checks if x is equal to 20
+
+y = 0 
+print(y == 30)  # Checks if y is equal to 30
+
+z = 40 
+print(3 and 50)  # This will print 50, as 3 is truthy, so 'and' returns the last value
+
+# Identity comparison operators 
+# is and is not 
+
+# compare values of id()
+
+x = 10 
+y = x
+print(x is y)
+print(x is not y)
+
+x1=10
+x2=10
+y1=10.5
+y2=10.5
+z1="geeksforgeeks"
+z2="geeksforgeeks"
+print(x1 is x2)
+print(y1 is y2)
+print(z1 is z2)
+
+l1=[10,20,30]
+l2=[10,20,30]
+print(l1 is l2)
+
+# Membership test operators 
+
+# string : check for sub string 
+# Dictionary : check for key 
+# list , set , tuple , etc  
+
+s="geeksfogeeks"
+
+print("g" in s)
+print("for" in s)
+print("gk" in s)
+
+d={10:"abc",20:"efg"}
+
+print(10 in d)
+print(15 in d)
+print("abc" in d)
+
+l=[10,20,30,15]
+
+print(30 in l)
+print([20,30] in l)
+
+l=[10,20,30,15]
+print(30 not in l)
+print(40 not in l)
+print([20,30] not in l)
+
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+# print("Try programiz.pro")
+
+# Binary operator in python 
+# Binary to decimal 
+
+# print(bin(18))
+# print(bin(12))
+# print(int("0b10010",2))
+# print(int("0b1100",2))
+
+# Bitwise AND operator : works like multiply
+
+# lEFT SHIFT OPERATOR 
+# Right shift operator
+# Bitwise NOT 
+# One and 2s complement
+
+# x = 5
+# print(~x)
+
+# Arithmetic progression nth term in python 
+
+# a = int(input("Enter the value a : "))
+# d = int(input("Enter the value d : "))
+# n = int(input("Enter the value n : "))
+
+# res = a*(n-1)*d
+
+# print(res)
+
+# Geometric progression nth tern in python 
+
+a = int(input("Enter the value a: "))
+r = int(input("Enter the value r: "))
+n = int(input("Enter the value n: "))
+
+print(f"The value of a is: {a}")
+print(f"The value of r is: {r}")
+print(f"The value of n is: {n}")
+
+res = a * r ** (n - 1)
+print("The result is:", res)
+
+
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+# print("Try programiz.pro")
+
+# Double division gives the floor of thr expression 
+# Find the last digit of the number provided by the use 
+
+# x = int(input("Enter x: "))
+# ld = x % 10
+# print("Last digit is " + str(ld))
+
+# x = int(input("Enter the number to find its last digit : "))
+# ld = abs(x) % 10
+
+# print("Last digit of the number absolute form is : " +str(ld))
+
+# Day before n days 
+
+d = int(input("Enter d : "))
+
+n = int(input("Enter n :"))
+
+print((d-n)%7)
+
+***********
+
+# # # i = 0
+# # # while i < 5:
+# # #     print("while loop")
+# # #     i += 1  # This will increment i to eventually end the loop
+
+# # # while True:
+# # #     print("while loop")
+# # # print geeksforgeeks n times 
+
+# # n = int(input("Enter a number to n times : "))
+# # i = 0 
+# # while i < n:
+# #     print("GeeksforGeeks")
+# #     i=i+1
+
+# # range in python program 
+
+# r = range(-2,2)
+# l = list(r)
+# print(l)
+
+# r = range(10,20,2)
+# l = list(r)
+# print(l)
+
+# r=range(20,10,-2)
+# l=list(r)
+# print(l)
+
+r = range(30,10,-3)
+l = list(r)
+print(l)
+
+******************
+
+# For loop in python 
+# l = [10,20,30,40]
+# for x in l:
+#     print(x)
+# s = "gfg"
+# for x in s:
+#     print(x)
+#     print(x)
+# for x in range(9):
+#  print(x)
+# Range in for loop of python 
+# for x in range(20):
+#     if x%6==0:
+#         print(x)
+# l = [10,20,30,40]
+# for i in range(len(l)):
+#  print(i,l[i])
+# Break statements in python 
+# n = int(input("Enter a number n: "))
+# for x in range(2, n + 1):
+#     if n % x == 0:
+#         print(x)
+#         break
+
+# n = int(input("Enter n: "))
+# x = 2
+# while x <= n:
+#     if n % x == 0:
+#         print(x)
+#         break
+#     x = x + 1
+i = 1
+while i <= 5:
+    if i == 3:
+        break
+    print(i)
+    i = i + 1
+print(i)
+
+********************
+
+# # Continue loop in python 
+
+# l = [10,16,17,18,19,15]
+
+# for x in l :
+#     if x % 5 == 0:
+#         continue
+#     print(x)
+
+# i = 0
+# while i <= 5:
+#     if i == 3:
+#         i = i + 1  # Increment i when it's 3
+#         continue  # Skip the print statement for i == 3
+#     print(i, i * i)  # Print i and i^2
+#     i = i + 1  # Increment i in every other case
+l = [10, 16, 17, 18, 9, 15, 21, 13]
+
+for x in l:
+    if x % 5 == 0:
+        continue  # Skip numbers divisible by 5
+    if x % 7 == 0:
+        break  # Break the loop when a number is divisible by 7
+    print(x)
+    print("Bye")
+
+******************
+
+# # First loop: Numbers 1 to 10
+# for i in range(1, 11):  # Loop from 1 to 10
+#     print(i, end=" ")  # Print the current value of i
+# print()  # Move to the next line after the first loop
+
+# # Second loop: Numbers 2 to 20 with step 2
+# for i in range(2, 21, 2):  # Loop from 2 to 20 with a step of 2
+#     print(i, end=" ")  # Print the current value of i
+# print()  # Move to the next line after the second loop
+
+# # Third loop: Numbers 3 to 30 with step 3
+# for i in range(3, 31, 3):  # Loop from 3 to 30 with a step of 3
+#     print(i, end=" ")  # Print the current value of i
+# print()  # Move to the next line after the third loop
+
+# Outer loop: Iterating over 1 to 10
+# for i in range(1, 11):
+#     # Inner loop: Generate multiples of i from i to i*10
+#     for j in range(i, i * 10 + 1, i):
+#         print(j, end=" ")  # Print the value of j with a space (to separate numbers)
+#     print()  # Move to the next line after each iteration of the outer loop
+
+# for i in range(1,3):
+#     j=1
+#     while j<3:
+#         print(i,j)
+#         j=j+1
+#         print("GFG")
+
+
+ll = [[10,20,30],[40,50,60],[70,80]]
+for l in ll:
+    for x in l:
+        print(x,end="")
+        print()
+
+
+
+*******************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
